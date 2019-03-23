@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link href="lib/mocha.css" rel="stylesheet" />
+    <link href="hero.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- 👍 YOUR HTML HERE 👍 -->
+  <div class="wrapper">
+
+<img id="inn" src="http://healthtastesgood.co/wp-content/uploads/2016/09/SleepingLion.jpg" alt="inn"/>
+<img id="dagger" src="https://www.darksword-armory.com/wp-content/uploads/2014/09/crusader-medieval-dagger-1814-1600x1067.jpg" alt="dagger"/>
+<img id="bag" src="https://www.dhresource.com/webp/m/0x0s/f2-albu-g6-M01-63-04-rBVaSFt0zDKAEHsOAAJ2PY8lQ7c041.jpg/pubg-level-3-backpack-winner-winner-chicken-dinner-attack-backpack-fortnite-equipment-usb-backpack-molle-ii-3-day-assault-pack-multicam-bag.jpg" alt="bag"/>
+  
+  <div>
+
+
+
+
+  <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
+  <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
+
+  <div id="mocha">
+  <!-- MOCHA TEST FEEDBACK WILL BE RENDERED HERE -->
+  </div>
+
+  <script src="lib/chai.js"></script>
+  <script src="lib/mocha.js"></script>
+  <script src="lib/sinon.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="YOUR_JAVASCRIPT_HERE.js"></script>
+  <script src="lib/game_logic.test.js"></script>
+
+</body>
+</html>

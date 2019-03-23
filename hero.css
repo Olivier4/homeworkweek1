@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+  }
+  img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 5px auto;
+    box-shadow: solid black 4px 4px;
+  
+  }
+  
+  
